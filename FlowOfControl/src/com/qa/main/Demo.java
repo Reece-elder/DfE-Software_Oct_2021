@@ -9,5 +9,9 @@ public class Demo {
 	public static void imFirst() {
 		System.out.println("I'm first!");
 	}
+	
+	public static void imSecond() {
+		System.out.println("I'm second");
+	}
 
 }

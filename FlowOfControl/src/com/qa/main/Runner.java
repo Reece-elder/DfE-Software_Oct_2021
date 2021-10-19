@@ -17,7 +17,10 @@ public class Runner {
 //		System.out.println("1");
 		
 		// Reference the class . the method
-		Demo.imFirst();
+//		Demo.imFirst();
+//		Demo.imSecond();
+		Stack.firstMethod();
+		Stack.secondMethod();
 		
 	}
 	

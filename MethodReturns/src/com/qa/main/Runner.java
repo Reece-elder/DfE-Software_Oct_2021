@@ -13,6 +13,10 @@ public class Runner {
 		System.out.println(Returns.classString);
 		
 		System.out.println(Returns.returnNum());
+		
+		Returns.returnFloat();
+		
+		System.out.println(Returns.returnFloat());
 	}
 
 }

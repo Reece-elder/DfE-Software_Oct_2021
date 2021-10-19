@@ -7,8 +7,6 @@ public class Returns {
 		// The body ends 
 		// The method RETURNS something
 	
-	// 
-	
 	public static void printHello() {
 		System.out.println("Hello");
 	}
@@ -23,6 +21,10 @@ public class Returns {
 	public static int returnNum() {
 		return 123;
 //		System.out.println("This will never print");
+	}
+	
+	public static float returnFloat() {
+		return 53.671f;
 	}
 	
 	

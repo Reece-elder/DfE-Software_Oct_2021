@@ -19,8 +19,11 @@ public class Runner {
 		// Reference the class . the method
 //		Demo.imFirst();
 //		Demo.imSecond();
-		Stack.firstMethod();
-		Stack.secondMethod();
+//		Stack.firstMethod();
+//		Stack.secondMethod();
+		System.out.println("main started");
+		System.out.println(MethodStack.firstLayer());
+		System.out.println("main ended");
 		
 	}
 	

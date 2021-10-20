@@ -62,5 +62,67 @@ public class IfStatement {
 	// - Prints out "Equals" if a number is equal to 10
 	// - Prints out "less than" if a number is less than 10 
 	
+	
+	public static String numberStatement() {
+		
+		int x = 12;
+		
+		if (x > 10) {
+			return "greater than 10";
+		} else if (x == 10) {
+			return "equal to 10";
+		} else if (x < 10) {
+			return "less than 10";
+		}
+		
+		// Always end an if block either with 
+		// else 
+		// return (outside of the block)
+		
+		return "not a number";
+		
+	}
+	
+	public static void complexStatement() {
+		
+		boolean bool = true;
+		String colour = "Red";
+		
+		// if bool is true OR if colour is red
+		if (bool == true || colour == "Red") {
+			System.out.println("bool is true OR colour is red");
+			// How can I tell whether its bool being true OR colour being red that triggered this?
+			
+			// Single if else block (which only prints out 1 thing)
+			if (bool == true && colour == "Red") {
+				System.out.println("bool is true AND colour is red");
+			} else if(bool == true) {
+				System.out.println("bool is true and colour is not red");
+			} else if (colour == "Red") {
+				System.out.println("colour is red and bool is not true");
+			} 
+			
+			System.out.println("================================");
+			
+			// Seperate if statements, which MAY print out all 3
+			if (bool == true && colour == "Red") {
+				System.out.println("bool is true AND colour is red");
+			} 
+			
+			if(bool == true) {
+				System.out.println("bool is true and colour is not red");
+			} 
+			
+			if (colour == "Red") {
+				System.out.println("colour is red and bool is not true");
+			} 
+			
+		}
+		
+		
+		
+		
+		
+	}
 
 }

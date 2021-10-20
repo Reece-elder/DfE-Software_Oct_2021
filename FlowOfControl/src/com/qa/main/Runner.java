@@ -1,5 +1,7 @@
 package com.qa.main;
 
+import com.qa.dice.DiceRoller;
+
 public class Runner {
 	
 	// main method is what runs
@@ -21,9 +23,11 @@ public class Runner {
 //		Demo.imSecond();
 //		Stack.firstMethod();
 //		Stack.secondMethod();
-		System.out.println("main started");
-		System.out.println(MethodStack.firstLayer());
-		System.out.println("main ended");
+//		System.out.println("main started");
+//		System.out.println(MethodStack.firstLayer());
+//		System.out.println("main ended");
+		
+		System.out.println(DiceRoller.sixSidedDice());
 		
 	}
 	

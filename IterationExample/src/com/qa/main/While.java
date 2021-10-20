@@ -1,5 +1,7 @@
 package com.qa.main;
 
+import java.util.Random;
+
 public class While {
 	
 	// Iteration allows you to repeat blocks of code
@@ -29,6 +31,8 @@ public class While {
 			System.out.println("Counter value: " + counter); // combining a String and an int to create a string 
 			counter ++; // Increment counter by 1
 //			counter -= 2;
+			
+			int number = new Random().nextInt(5);
 
 		}
 		

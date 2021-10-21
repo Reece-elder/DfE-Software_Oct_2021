@@ -13,7 +13,6 @@ public class Runner {
 		ArrayLists.updatePizza(1);
 		System.out.println(ArrayLists.getPizza(1));
 		ArrayLists.forLoopArrayList();
-		
 	}
 
 }

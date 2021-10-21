@@ -18,7 +18,7 @@ public class Demo {
 		// Curly {} brackets surrounding values, commas seperating values
 		
 		String colour = "Red";
-		String[] colourList = {"Blue", "Purple", "Teal", "Yellow"}; 
+		
 		
 		System.out.println(colour);
 		System.out.println("=======================");
@@ -29,6 +29,11 @@ public class Demo {
 		// Accessing the length of our array with .length
 		
 		for(int i = 0; i < colourList.length; i++) {
+			
+			if(i == 2) {
+				break; // Stop the loop and go to the next command
+			}
+			
 			System.out.print(colourList[i] + " ");
 			// run data in a different method
 			// push the data to a different class
@@ -39,6 +44,7 @@ public class Demo {
 		// colourList[1] = "Purple
 		
 		colourList[1] = "Moave";
+		System.out.println(colourList[1]);
 		System.out.println();
 		System.out.println(colourList[1]);
 		
@@ -48,6 +54,46 @@ public class Demo {
 		
 		System.out.println(stringArrayPrint);
 		
+		
+	}
+	
+	public static String[] colourList = {"Blue", "Purple", "Teal", "Yellow"}; 
+	
+	public static void forEachLoop() {
+		
+		// For each String in the array ColourList
+		// create a temp variable called colour that is equal to it
+		for(String newColour : colourList) {
+			System.out.println(newColour);
+		}
+		
+	}
+	
+	public static void exerciseLoop() {
+		
+		int[] numbers = {1,2,3,4,5,6,7,8,9,10};
+		int[] newNums = {0,0,0,0,0,0,0,0,0,0};
+		
+		for(int num : numbers) {
+			
+//			System.out.println(numbers[i] * i);
+//			int num = numbers[i];
+//			System.out.println(num * i);
+			
+			System.out.println(num * 2);
+			System.out.println("====================");
+			System.out.println(num * num);
+		}
+		
+		for(int i = 0; i < numbers.length; i++) {
+			
+			int squaredValue = numbers[i] * i;
+			newNums[i] = squaredValue; // Setting the squared value on 2nd array
+			
+			int reverseNum = i + 1;
+			newNums[newNums.length - reverseNum] = squaredValue;
+			
+		}
 		
 	}
 

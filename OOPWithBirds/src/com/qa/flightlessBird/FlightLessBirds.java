@@ -1,4 +1,6 @@
-package com.qa.bird;
+package com.qa.flightlessBird;
+
+import com.qa.bird.Bird;
 
 // When making a child class we need to specify what 
 // is the parent class, with the word extends
@@ -40,6 +42,16 @@ public class FlightLessBirds extends Bird {
 		this.habitat = habitat;
 		this.landSpeed = landSpeed;
 	}
+
+	@Override
+	public String toString() {
+		return "FlightLessBirds [habitat=" + habitat + ", landSpeed=" + landSpeed + ", toString()=" + super.toString()
+				+ "]";
+	}
+
+
+	
+	
 	
 	
 	

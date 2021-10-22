@@ -38,6 +38,15 @@ public class Bird {
 		this.wingSpan = wingSpan;
 		this.migratory = migratory;
 	}
+
+	@Override
+	public String toString() {
+		return "Bird [featherColour=" + featherColour + ", wingSpan=" + wingSpan + ", migratory=" + migratory + "]";
+	}
+
+
+	
+	
 	
 	
 	
